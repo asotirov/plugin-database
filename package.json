@@ -1,0 +1,18 @@
+{
+  "name": "database",
+  "version": "0.0.1",
+  "main": "database.js",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "plugin": {
+    "consumes": [
+      "sql",
+      "mongo"
+    ],
+    "provides": [
+      "database"
+    ]
+  }
+}
